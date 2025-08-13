@@ -4,5 +4,4 @@ jsonfield>=3.1.0,<4.0.0
 cryptography~=43.0.3
 pyOpenSSL~=24.2.1
 
-openwisp-utils @ https://github.com/Insatroute/openwisp-utils/tarball/main
-#git+https://github.com/Insatroute/openwisp-utils.git@main#egg=openwisp_utils
+#pip install -e git+https://github.com/Insatroute/openwisp-utils.git@main#egg=openwisp_utils
