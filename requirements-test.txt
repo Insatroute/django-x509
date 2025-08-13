@@ -1,1 +1,1 @@
-git+https://github.com/Insatroute/openwisp-utils.git@main#egg=openwisp_utils[qa]
+#pip install -e git+https://github.com/Insatroute/openwisp-utils.git@main#egg=openwisp_utils[qa]
