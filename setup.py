@@ -15,7 +15,6 @@ def get_install_requires():
             line.startswith("#")
             or line == ""
             or line.startswith("http")
-            or line.startswith("git")
         ):
             continue
         # add line to requirements
@@ -31,8 +30,8 @@ setup(
     author_email="f.capoano@cineca.it",
     description="Reusable django app to generate and manage x509 certificates",
     long_description=open("README.rst").read(),
-    url="https://github.com/openwisp/django-x509",
-    download_url="https://github.com/openwisp/django-x509/releases",
+    #url="https://github.com/openwisp/django-x509",
+    #download_url="https://github.com/openwisp/django-x509/releases",
     platforms=["Platform Indipendent"],
     keywords=["django", "x509", "pki", "PEM", "openwisp"],
     packages=find_packages(exclude=["tests", "docs"]),
